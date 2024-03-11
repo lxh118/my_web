@@ -1,3 +1,11 @@
+import streamlit as st 
+
+# 设置全局属性
+st.set_page_config(
+    page_title='我是标题',
+    page_icon=' ',
+    layout='wide'
+)
 c1, c2 = st.columns(spec=2)
 
 # 将被渲染在最下方
